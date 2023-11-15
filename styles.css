@@ -1,0 +1,67 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6d2727;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.education ul {
+    list-style: none;
+}
+
+.location .map {
+    width: 50%;
+    height: 5s00px;
+}
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media li a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #b03838;
+    color: #fff;
+}
+
